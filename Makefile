@@ -8,3 +8,11 @@ publish:
 
 patch:
 	make publish version=patch
+
+minor:
+	make publish version=minor
+
+major:
+	make publish version=major
+
+
