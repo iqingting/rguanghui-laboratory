@@ -5,3 +5,6 @@ publish:
 	npm publish
 	git push origin master
 	git push origin --tags
+
+patch:
+	make publish version=patch
