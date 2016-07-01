@@ -1,6 +1,8 @@
+commit = 'update version'
+
 publish:
 	git add .
-	git commit -m 'update'
+	git commit -m ${commit} 
 	npm version ${version} 
 	npm publish
 	git push origin master
